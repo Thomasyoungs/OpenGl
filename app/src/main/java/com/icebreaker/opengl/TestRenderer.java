@@ -31,8 +31,8 @@ public class TestRenderer extends GLRenderer {
     private FloatBuffer getVertices() {
         float vertices[] = {
                 0.0f, 0.5f,
-                -0.5f, -0.5f,
-                0.5f, -0.5f,
+                -1f, -0.5f,
+                1f, -0.5f,
         };
 
         // 创建顶点坐标数据缓冲
